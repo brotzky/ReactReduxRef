@@ -1,23 +1,33 @@
-# ReduxSimpleStarter
+# ReactReduxRef
+This project started from ReduxSimpleStarter: https://github.com/StephenGrider/ReduxSimpleStarter
+
+###Purpose###
+This repository is a personal reference for React using Redux. This is my progress following React Redux course https://www.udemy.com/react-redux/ by Stephen Grider. I am aiming to fully grasp Redux and all the concepts it brings along with it - reducers, actions, pure functions, middleware, and a single object for state.
 
 ###Getting Started###
 
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
 Checkout this repo, install depdencies, then start the gulp process with the following:
 
 ```
-	> git clone git@github.com:StephenGrider/ReactStarter.git
-	> cd ReactStarter
+	> git clone https://github.com/brotzky/ReactReduxRef.git
+	> cd ReactReduxRef
 	> npm install
 	> gulp
 ```
 
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 
+
+###Technology###
+This project contains modules for: 
 ```
-	> npm install
-	> gulp
+react
+react-dom
+react-redux
+redux
+redux-promise
+babel
+axios
+lodash
+gulp
 ```
+
