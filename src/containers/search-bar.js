@@ -6,7 +6,6 @@ import { fetchWeather } from '../actions/index'
 class SearchBar extends Component {
 	constructor(props) {
 		super(props);
-
 		this.state = { term: ''};
 
 		// binding this to callbacks
@@ -19,12 +18,10 @@ class SearchBar extends Component {
 	}
 
 	onSubmit(event) {
-		console.log('form submitted');
 		event.preventDefault();
 
 		// Calling the action creator
 		this.props.fetchWeather(this.state.term);
-
 		this.setState({ term: '' })
 	}
 
