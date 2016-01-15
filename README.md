@@ -12,7 +12,8 @@ Checkout this repo, install depdencies, then start the gulp process with the fol
 	> git clone https://github.com/brotzky/ReactReduxRef.git
 	> cd ReactReduxRef
 	> npm install
-	> gulp
+	> npm start
+	> go to http://localhost:8080/ 
 ```
 
 
