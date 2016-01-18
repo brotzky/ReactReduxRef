@@ -1,3 +1,10 @@
+ /**
+   * Reducer for weather action
+   *
+   * Import action
+   * Update state based on action
+   */
+
 import { FETCH_WEATHER } from '../actions/index';
 
 export default (state = [], action) => {

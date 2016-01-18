@@ -1,10 +1,17 @@
+ /**
+   * WeatherList container dealing with state
+   * and table creation
+   */
+
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import Chart from '../components/chart';
 
 class WeatherList extends Component {
+
 	renderWeather(cityData) {
 		const cityName = cityData.city.name;
+		// mapping data arrays into const arrays
 		const temps = cityData.list.map((weather) => weather.main.temp);
 		const humidity = cityData.list.map((weather) => weather.main.humidity);
 		const pressure = cityData.list.map((weather) => weather.main.pressure);

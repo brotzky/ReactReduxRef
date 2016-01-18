@@ -13,7 +13,7 @@ Checkout this repo, install depdencies, then start the gulp process with the fol
 	> cd ReactReduxRef
 	> npm install
 	> npm start
-	> go to http://localhost:8080/ 
+	go to http://localhost:8080/ 
 ```
 
 
