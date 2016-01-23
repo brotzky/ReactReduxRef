@@ -20,7 +20,8 @@ Checkout this repo, install depdencies, then start the gulp process with the fol
 
 ```
 	> /src/private/api-key.js
-	export default const API_KEY = "PUT_YOUR_API_KEY_HERE";
+	const API_KEY = "PUT_YOUR_API_KEY_HERE";
+	export default API_KEY;
 ```
 
 ###Technology###
