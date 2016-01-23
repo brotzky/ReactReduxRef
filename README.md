@@ -16,7 +16,12 @@ Checkout this repo, install depdencies, then start the gulp process with the fol
 	go to http://localhost:8080/ 
 ```
 
+*Note, if this is your first time setting up this repository you will need to create a folder in `/src/` named `private` with a file named `api-key.js` that contains an API key from http://openweathermap.com/
 
+```
+	> /src/private/api-key.js
+	export default const API_KEY = "PUT_YOUR_API_KEY_HERE";
+```
 
 ###Technology###
 This project contains modules for: 
