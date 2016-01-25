@@ -1,7 +1,7 @@
  /**
    * Reducer for weather action
    *
-   * Import action
+   * Import action type
    * Update state based on action
    */
 
